@@ -83,5 +83,5 @@ Class-Path: jersey-container-servlet-core-2.22.2.jar py4j-0.10.4.jar k
  commons-httpclient-3.1.jar parquet-column-1.8.2.jar jackson-core-asl-
  1.9.13.jar jackson-core-2.6.5.jar antlr-runtime-3.4.jar commons-cli-1
  .2.jar
-Main-Class: com.dolen.canal.client.CanalClient
+Main-Class: TestDAU
 

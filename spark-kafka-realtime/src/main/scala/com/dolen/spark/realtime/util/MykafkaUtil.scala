@@ -1,4 +1,4 @@
-package util
+package com.dolen.spark.realtime.util
 
 import java.util.Properties
 

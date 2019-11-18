@@ -1,4 +1,4 @@
-package util
+package com.dolen.spark.realtime.util
 
 /***
   * 设置 运行Logger 级别

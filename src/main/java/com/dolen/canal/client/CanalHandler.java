@@ -35,6 +35,12 @@ public class CanalHandler {
                   sendKafka(rowData,CanalConstans.KAFKA_TOPIC_TEST);//测试主题
                 }
         }
+        if(tableName.equals("map_data_sample")&&eventType.equals(CanalEntry.EventType.UPDATE)){
+            //获取rowData
+            for (CanalEntry.RowData rowData : rowDatasList) {
+                  sendKafka(rowData,CanalConstans.KAFKA_TOPIC_TEST);//测试主题
+                }
+        }
     }
     private void sendKafka(CanalEntry.RowData rowData,String topic){
         //获取列

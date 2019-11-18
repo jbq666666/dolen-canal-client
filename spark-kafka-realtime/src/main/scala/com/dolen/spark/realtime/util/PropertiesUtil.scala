@@ -1,4 +1,4 @@
-package util
+package com.dolen.spark.realtime.util
 
 import java.io.InputStreamReader
 import java.util.Properties
